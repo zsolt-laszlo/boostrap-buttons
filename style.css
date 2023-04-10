@@ -64,3 +64,37 @@
     background-color: #c9302c;
     border-color: #ac2925;
   }
+
+
+  .size {
+    width: 100vh;
+    height: 20%;
+    background-color: #ccc;
+  }
+  .next-previos {
+    width: 100vh;
+    height: 20%;
+  }
+  .btn {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.42857143;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+  .previos, .next {
+    background-color: rgb(250, 248, 244);
+    border-color: black;
+  }
+
+  .previos:hover, .next:hover {
+    background-color: black;
+    color: white;
+  }
